@@ -1,5 +1,5 @@
 //
-//  MapsVC.swift
+//  HomeVC.swift
 //  HotS Database Viewer
 //
 //  Created by Student on 4/9/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MapsVC: UIViewController {
+class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -14,6 +14,7 @@
 		3F3A05CF207C5418003B1E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A05CE207C5418003B1E33 /* Assets.xcassets */; };
 		3F3A05D2207C5418003B1E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A05D0207C5418003B1E33 /* LaunchScreen.storyboard */; };
 		3F3A05DA207C5B5A003B1E33 /* MapsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A05D9207C5B5A003B1E33 /* MapsVC.swift */; };
+		3F3A05DD207C62D9003B1E33 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A05DC207C62D9003B1E33 /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3F3A05D1207C5418003B1E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3A05D3207C5418003B1E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3A05D9207C5B5A003B1E33 /* MapsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsVC.swift; sourceTree = "<group>"; };
+		3F3A05DC207C62D9003B1E33 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,8 @@
 			children = (
 				3F3A05DB207C5B66003B1E33 /* VC */,
 				3F3A05C5207C5418003B1E33 /* AppDelegate.swift */,
-				3F3A05CB207C5418003B1E33 /* Main.storyboard */,
+				3F3A05DE207C67B0003B1E33 /* Storyboards */,
 				3F3A05CE207C5418003B1E33 /* Assets.xcassets */,
-				3F3A05D0207C5418003B1E33 /* LaunchScreen.storyboard */,
 				3F3A05D3207C5418003B1E33 /* Info.plist */,
 			);
 			path = "HotS Database Viewer";
@@ -71,11 +72,21 @@
 		3F3A05DB207C5B66003B1E33 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				3F3A05D9207C5B5A003B1E33 /* MapsVC.swift */,
+				3F3A05DC207C62D9003B1E33 /* HomeVC.swift */,
 				3F3A05C7207C5418003B1E33 /* HeroesVC.swift */,
 				3F3A05C9207C5418003B1E33 /* TalentsVC.swift */,
+				3F3A05D9207C5B5A003B1E33 /* MapsVC.swift */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		3F3A05DE207C67B0003B1E33 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3F3A05CB207C5418003B1E33 /* Main.storyboard */,
+				3F3A05D0207C5418003B1E33 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3A05CA207C5418003B1E33 /* TalentsVC.swift in Sources */,
+				3F3A05DD207C62D9003B1E33 /* HomeVC.swift in Sources */,
 				3F3A05DA207C5B5A003B1E33 /* MapsVC.swift in Sources */,
 				3F3A05C6207C5418003B1E33 /* AppDelegate.swift in Sources */,
 				3F3A05C8207C5418003B1E33 /* HeroesVC.swift in Sources */,
