@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  TalentsVC.swift
 //  HotS Database Viewer
 //
 //  Created by Student on 4/9/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class TalentsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

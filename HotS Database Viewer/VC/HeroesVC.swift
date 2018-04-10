@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  HeroesVC.swift
 //  HotS Database Viewer
 //
 //  Created by Student on 4/9/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class HeroesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
