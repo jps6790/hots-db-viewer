@@ -7,15 +7,8 @@
 //
 
 import UIKit
+import Foundation
 
-class TalentData: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
+struct TalentData: Codable {
 
 }

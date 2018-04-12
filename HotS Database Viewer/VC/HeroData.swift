@@ -7,15 +7,22 @@
 //
 
 import UIKit
+import Foundation
 
-class HeroData: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+struct HeroData: Codable {
+    
+    let name: String?
+    let iconUrl: URL?
+    let role: String?
+    let type: String?
+    let abilities: Array?
+    
+    private enum CodingKeys: String, CodingKeys {
+        case name
+        case iconUrl = "icon_url"
+        case role
+        case type
+        case abilities
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
+    
 }
