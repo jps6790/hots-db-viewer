@@ -1,5 +1,5 @@
 //
-//  HeroesVC.swift
+//  TalentsVC.swift
 //  HotS Database Viewer
 //
 //  Created by Student on 4/9/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HeroesVC: UIViewController {
+class TalentData: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
