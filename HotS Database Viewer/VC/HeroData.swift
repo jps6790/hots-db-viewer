@@ -15,9 +15,9 @@ struct HeroData: Codable {
     let iconUrl: URL?
     let role: String?
     let type: String?
-    let abilities: Array?
+    let abilities: Array<String>?
     
-    private enum CodingKeys: String, CodingKeys {
+    private enum CodingKeys: String, CodingKey {
         case name
         case iconUrl = "icon_url"
         case role
