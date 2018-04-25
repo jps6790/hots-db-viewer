@@ -13,7 +13,7 @@
 		3F3A05CD207C5418003B1E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A05CB207C5418003B1E33 /* Main.storyboard */; };
 		3F3A05CF207C5418003B1E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A05CE207C5418003B1E33 /* Assets.xcassets */; };
 		3F3A05D2207C5418003B1E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A05D0207C5418003B1E33 /* LaunchScreen.storyboard */; };
-		3F3A05DD207C62D9003B1E33 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A05DC207C62D9003B1E33 /* HomeVC.swift */; };
+		3F3A05DD207C62D9003B1E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A05DC207C62D9003B1E33 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		3F3A05CE207C5418003B1E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3A05D1207C5418003B1E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3A05D3207C5418003B1E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F3A05DC207C62D9003B1E33 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3F3A05DC207C62D9003B1E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		3F3A05DB207C5B66003B1E33 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				3F3A05DC207C62D9003B1E33 /* HomeVC.swift */,
+				3F3A05DC207C62D9003B1E33 /* ViewController.swift */,
 				3F3A05C7207C5418003B1E33 /* HeroData.swift */,
 				3F3A05C9207C5418003B1E33 /* TalentData.swift */,
 			);
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3A05CA207C5418003B1E33 /* TalentData.swift in Sources */,
-				3F3A05DD207C62D9003B1E33 /* HomeVC.swift in Sources */,
+				3F3A05DD207C62D9003B1E33 /* ViewController.swift in Sources */,
 				3F3A05C6207C5418003B1E33 /* AppDelegate.swift in Sources */,
 				3F3A05C8207C5418003B1E33 /* HeroData.swift in Sources */,
 			);
@@ -299,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2366PVV26U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "HotS Database Viewer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -315,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2366PVV26U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "HotS Database Viewer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

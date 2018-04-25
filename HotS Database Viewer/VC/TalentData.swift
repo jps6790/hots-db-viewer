@@ -1,5 +1,5 @@
 //
-//  TalentsVC.swift
+//  TalentData.swift
 //  HotS Database Viewer
 //
 //  Created by Student on 4/9/18.

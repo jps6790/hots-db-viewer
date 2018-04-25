@@ -1,5 +1,5 @@
 //
-//  HeroesVC.swift
+//  HeroData.swift
 //  HotS Database Viewer
 //
 //  Created by Student on 4/9/18.
