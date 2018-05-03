@@ -14,6 +14,7 @@
 		3F3A05CF207C5418003B1E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A05CE207C5418003B1E33 /* Assets.xcassets */; };
 		3F3A05D2207C5418003B1E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A05D0207C5418003B1E33 /* LaunchScreen.storyboard */; };
 		3F3A05DD207C62D9003B1E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A05DC207C62D9003B1E33 /* ViewController.swift */; };
+		3F9259E8209B82A600AF98A1 /* HeroesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9259E7209B82A600AF98A1 /* HeroesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3F3A05D1207C5418003B1E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3A05D3207C5418003B1E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3A05DC207C62D9003B1E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9259E7209B82A600AF98A1 /* HeroesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		3F3A05DB207C5B66003B1E33 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				3F9259E7209B82A600AF98A1 /* HeroesVC.swift */,
 				3F3A05DC207C62D9003B1E33 /* ViewController.swift */,
 				3F3A05C7207C5418003B1E33 /* HeroData.swift */,
 				3F3A05C9207C5418003B1E33 /* TalentData.swift */,
@@ -161,6 +164,7 @@
 				3F3A05CA207C5418003B1E33 /* TalentData.swift in Sources */,
 				3F3A05DD207C62D9003B1E33 /* ViewController.swift in Sources */,
 				3F3A05C6207C5418003B1E33 /* AppDelegate.swift in Sources */,
+				3F9259E8209B82A600AF98A1 /* HeroesVC.swift in Sources */,
 				3F3A05C8207C5418003B1E33 /* HeroData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

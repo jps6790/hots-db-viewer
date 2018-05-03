@@ -2,7 +2,7 @@
 //  HeroData.swift
 //  HotS Database Viewer
 //
-//  Created by Student on 4/9/18.
+//  Created by Jordan Sullivan on 4/9/18.
 //  Copyright © 2018 Jordan Sullivan. All rights reserved.
 //
 
@@ -15,14 +15,12 @@ struct HeroData: Codable {
     let iconUrl: URL?
     let role: String?
     let type: String?
-    let abilities: Array<String>?
     
     private enum CodingKeys: String, CodingKey {
         case name
         case iconUrl = "icon_url"
         case role
         case type
-        case abilities
     }
     
 }
